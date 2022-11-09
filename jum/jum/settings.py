@@ -65,6 +65,7 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     "jum.pipelines.PriceConvPipeLine": 100,
     "jum.pipelines.DuplicatesPipeline": 200,
+    "jum.pipelines.SavingToPostgresPipeline": 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
